@@ -109,7 +109,7 @@ plt.show()
 
 ```python
 # Load the image
-image = cv2.imread('riki.jpeg') 
+image = cv2.imread('img1.jpeg') 
 
 # Convert BGR (OpenCV's default) to RGB (Matplotlib's expected color order)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
