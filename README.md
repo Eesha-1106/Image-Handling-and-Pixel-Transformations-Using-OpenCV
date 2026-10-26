@@ -91,7 +91,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Read the image using OpenCV
-img = cv2.imread('riki.jpeg', cv2.IMREAD_COLOR)
+img = cv2.imread('Eesha.jpeg', cv2.IMREAD_COLOR)
 
 # Convert BGR (OpenCV's default) to RGB (Matplotlib's expected color order)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
